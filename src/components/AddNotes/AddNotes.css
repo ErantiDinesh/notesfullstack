@@ -1,0 +1,65 @@
+.addnotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.5vh;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    border-top: 1px solid grey;
+}
+
+.title-and-description {
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 70px;
+    border-radius: 0.5rem;
+    margin: 20px 0px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.addnotes-input {
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    width: 94%;
+}
+
+.category-and-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+.addnote-options-container {
+    height: 31px;
+    width: 150px;
+    padding: 4px 8px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 4px 12px;
+    transition: boxshadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid grey;
+}
+
+.add-button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}

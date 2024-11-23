@@ -1,0 +1,118 @@
+.noteitem-main-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.noteitem-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.noteitem-title-and-category-cont {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-height: 25px;
+}
+
+.noteitem-description-and-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-height: 45px;
+}
+
+.edi-and-del-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 15px;
+}
+
+.noteItem-titl {
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.noteitem-descrip {
+    width: 80%;
+}
+
+.noitem-input-edit {
+    width: 80%;
+    /* border: none; */
+    outline: none;
+    height: 28px;
+    padding-left: 10px;
+}
+
+.categor-and-don-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.noteItem-categ {
+    padding-bottom: 5px;
+}
+
+.noteItem-categ-cont {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    height: 20px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-item-done-btn {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 5px 8px;
+    transition: boxshadow 0.3s ease;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+}
+
+.note-item-done-btn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.addnote-edit-btn {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 5px 8px;
+    transition: boxshadow 0.3s ease;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+}
+
+.addnote-edit-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.completedItem {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.todoItems-container {
+    margin-top: 30vh;
+}
+
+.empty-note-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
