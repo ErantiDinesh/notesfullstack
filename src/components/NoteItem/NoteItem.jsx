@@ -38,7 +38,7 @@ const NoteItem = (props) => {
       category,
     };
   
-    const url = `http://localhost:4000/update/${_id}`;
+    const url = `https://notesappbackend-up2u.onrender.com/update/${_id}`;
     const options = {
       method: "PUT",
       headers: {

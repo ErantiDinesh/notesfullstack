@@ -11,7 +11,7 @@ const TodoContextProvider = ({children}) => {
 
     const getAllTodos = async () => {
         try {
-          const response = await fetch("http://localhost:4000/get-todo");
+          const response = await fetch("https://notesappbackend-up2u.onrender.com/get-todo");
           const res = await response.json();
           if (res.success) {
             const sortedTodos = res.data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
@@ -39,7 +39,7 @@ const TodoContextProvider = ({children}) => {
 
         // console.log(todoDetails)
 
-        const url = "http://localhost:4000/create-todo";
+        const url = "https://notesappbackend-up2u.onrender.com/create-todo";
         const options = {
             method: "POST",
             headers: {
@@ -61,7 +61,7 @@ const TodoContextProvider = ({children}) => {
 
     const ClickedDelete = async (_id) => {
         try {
-            const response = await fetch(`http://localhost:4000/delete/${_id}`, {method: "DELETE",})
+            const response = await fetch(`https://notesappbackend-up2u.onrender.com/delete/${_id}`, {method: "DELETE",})
             const res = await response.json()
             console.log("deleted:", res)
             setTodoItems((prevState) => (
